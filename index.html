@@ -3,29 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <title>3 Column preview card component</title>
   </head>
   <body>
     <div class="container">
-      <div class="card card_yellow">
+      <div class="card card_orange">
         <img src="/assets/images/icon-sedans.svg" alt="" class="icon">
         <h1 class="title">SEDANS</h1>
         <p class="parrafo">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your road trip.
         </p>
-        <a href="#" class="bottom">Learn more</a>
+        <a href="#" class="bottom bottom_orange">Learn more</a>
       </div>
-      <div class="card card_green-ligth">
+      <div class="card card_cyan">
         <img src="/assets/images/icon-suvs.svg" alt="" class="icon">
         <h1 class="title">SUVS</h1>
         <p class="parrafo">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</p>
-        <a href="#" class="bottom">Learn more</a>
+        <a href="#" class="bottom bottom_cyan">Learn more</a>
       </div>
-      <div class="card card_green-dark">
+      <div class="card card_cyan-dark">
         <img src="/assets/images/icon-luxury.svg" alt="" class="icon">
         <h1 class="title">LUXURY</h1>
         <p class="parrafo">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
-        <a href="#" class="bottom">Learn more</a>
+        <a href="#" class="bottom bottom_cyan-dark">Learn more</a>
       </div>
     </div>
   </body>
@@ -35,4 +38,8 @@ MI ESTRUCTURA:
 - Voy a crear un div principal. 
 - Dentro de este div, voy a crear 3 div para cada contenedor.
 - Dentro de cada div coloco: Una img, un h1, un p y un enlace.
+NOTA: Use un enlace en vez de un boton, debido a que un boton no deberia estar fuera de un formulario, seria semanticamente incorrecto.
+
+DORIA: 
+- La diferencia principal, es que agrego una segunda clase al enlace para darle el color de la letra. 
  -->
