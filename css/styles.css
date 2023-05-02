@@ -61,15 +61,15 @@ body {
 - Proceso a agregarle estilo a cada card.
 */
 
-.card_orange{
+.card--orange{
     background-color: hsl(31, 77%, 52%);
 }
 
-.card_cyan{
+.card--cyan{
     background-color: hsl(184, 100%, 22%);
 }
 
-.card_cyan-dark{
+.card--dark-cyan{
     background-color: hsl(179, 100%, 13%);
 }
 
@@ -79,7 +79,7 @@ ICONO:
 - Cambio su ancho, ya que perdio sus medidas.
 - Lo ubico con top y left.
 */
-.icon{
+.card__logo{
     position: absolute;
     width: 40px;
     top: 35px;
@@ -91,7 +91,7 @@ H1:
 - Le doy position absolute. Para que se mueva con respecto a su contenedor que ya esta posicionado.
 - Lo ubico con top y left.
 */
-.title{
+.card__title{
     position: absolute;
     top: 100px;
     left: 25px;
@@ -107,7 +107,7 @@ PARRAFO:
 - Agrego fuentes con su tamano.
 - Text-align: left, para ajustar el texto a la izquierda.
 */
-.parrafo{
+.card__text{
     position: absolute;
     top: 150px;
     left: 25px;
@@ -128,7 +128,7 @@ ENLACE:
 - border radius, para redondear los bordes.
 - Color: 
 */
-.bottom{
+.card__buttom{
     position: absolute;
     bottom: 35px;
     left: 25px;
@@ -140,15 +140,15 @@ ENLACE:
     border-radius: 30px;
 }
 
-.bottom_orange{
+.card__buttom--orange{
     color: hsl(31, 77%, 52%);
 }
 
-.bottom_cyan{
+.card__buttom--cyan{
     color:hsl(184, 100%, 22%);
 }
 
-.bottom_cyan-dark{
+.card__buttom--dark-cyan{
     color: hsl(179, 100%, 13%);
 
 }
